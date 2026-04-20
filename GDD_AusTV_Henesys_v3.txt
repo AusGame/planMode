@@ -1,0 +1,879 @@
+================================================================================
+       JORNADA DO HERÓI + GAME DESIGN DOCUMENT (GDD)
+       Título: AusTV: Henesys — O Despertar dos Wisps
+       Disciplina: Desenvolvimento de Games
+       Autor: Murillo Weiss - Herick Eduardo Vavassori
+       Versão: 3.0
+================================================================================
+
+
+================================================================================
+PARTE 1 — A JORNADA DO HERÓI (NARRATIVA)
+================================================================================
+
+------------------------------------------------------------------------
+1. MUNDO COMUM
+------------------------------------------------------------------------
+Rael é um jogador iniciante que acabou de entrar no servidor AusTV pela
+primeira vez. Henesys — como o mundo é chamado pelos veteranos — é um
+servidor repleto de vida: clãs disputando territórios, eventos semanais
+como a Batalha de Titãs e o Modo Zumbis, uma economia viva com leilões
+sombrios e lojas dinâmicas, e jogadores personalizados com jetpacks,
+chapéus temáticos e pets raros.
+
+Rael chega sem clã, sem equipamento e sem história. O servidor é
+governado por quatro grandes clãs que controlam cada região de Henesys:
+
+  • Clã Imperial (Blocão) — sul rural das Terras Caipiras
+  • Clã Moon (Shinigami) — norte sci-fi da Zona Espacial
+  • Clã Royals (Marcus) — leste urbano do Bairro da Pizzaria
+  • Clã Kuromi (Ozielux) — oeste sombrio do Distrito de Halloween
+
+No centro de Henesys fica o Altar dos Titãs, ponto neutro administrado
+por Power — o fundador do servidor, ex-líder de clã que abdicou do poder
+para manter a paz entre as facções.
+
+------------------------------------------------------------------------
+2. CHAMADO PARA AVENTURA
+------------------------------------------------------------------------
+Durante sua primeira noite em Henesys, uma sirene de alerta ecoa por todo
+o servidor: o evento "Batalha de Titãs" foi ativado. Um Titã Corrompido
+emergiu do centro do mapa e começou a destruir construções de jogadores.
+
+Mas desta vez algo é diferente: o Titã liberou uma onda de corrupção que
+transformou centenas de Wisps em criaturas agressivas. Os quatro clãs —
+os únicos capazes de derrotá-lo em condições normais — estão em guerra
+interna há semanas, incapazes de cooperar.
+
+Rael, por ser novato sem bandeira de clã, é o único que pode transitar
+livremente pelos quatro territórios. Power aparece na tela de Rael com
+uma mensagem direta: "Você chegou na hora certa. Ou na pior. Depende do
+que você fizer agora."
+
+------------------------------------------------------------------------
+3. MENTOR
+------------------------------------------------------------------------
+Power é o CEO e fundador do AusTV, ex-líder do clã mais poderoso que
+Henesys já teve — dissolvido por ele mesmo quando percebeu que o poder
+de um único clã estava sufocando o servidor. Ele vive como um NPC neutro
+no Altar dos Titãs, sem facção, respeitado por todos.
+
+Power treina Rael nos fundamentos: o sistema de habilidades do mcMMO
+(Combate, Mineração, Acrobacia, Herbalismo), como ler a raridade dos
+Wisps (Comum → Incomum → Raro → Épico → Lendário → Único), como usar
+o Battle Pass para progredir, e como o sistema de Leilões Sombrios
+funciona para conseguir itens raros.
+
+Power entrega a Rael seu primeiro item especial: um Fragmento de Essência
+incompleto — e revela que os outros três estão com Blocão, Shinigami,
+Marcus e Ozielux. Para obter cada fragmento, Rael precisa provar seu
+valor para cada líder de clã nos seus próprios termos.
+
+"Eu já tentei reunir esses quatro", diz Power. "Não funcionou vindo de
+mim. Talvez funcione vindo de alguém que eles não têm motivo para odiar."
+
+------------------------------------------------------------------------
+4. TRAVESSIA DO LIMIAR
+------------------------------------------------------------------------
+Rael parte para a primeira zona — as Terras Caipiras ao sul — e desce
+até a Dungeon Ruína: uma rede de câmaras subterrâneas feitas de pedra
+ancestral, relíquias de um clã que existiu antes de todos os quatro atuais.
+
+Esta é a travessia do limiar: a primeira dungeon ensina todas as mecânicas
+de combate, uso da Besta (crossbow), exploração com quebra de blocos, e
+como interagir com Wisps aliados. Ao sair vitorioso, Blocão o reconhece
+como digno de falar com ele — a primeira porta aberta entre Rael e os
+líderes de clã.
+
+------------------------------------------------------------------------
+5. TESTES, ALIADOS E INIMIGOS
+------------------------------------------------------------------------
+TESTES POR ZONA:
+
+[ ZONA CAIPIRA / CLÃ IMPERIAL — Blocão ]
+Dungeon Ruína: câmaras de pedra antiga e fósseis. Puzzles de mineração
+exigem que Rael quebre blocos específicos para liberar passagens. Inimigos:
+Wisps Comuns corrompidos e Mobs de Fazenda Mutados. Blocão é direto e
+desconfiado — respeita ação, não palavras. Ele só entrega o fragmento
+depois que Rael completa a dungeon sem usar kits médicos uma vez sequer.
+
+[ ZONA ESPACIAL / CLÃ MOON — Shinigami ]
+Dungeon Tormenta: torre elétrica no topo da Zona Espacial, varrida por
+tempestades de dados corrompidos. Plataformas instáveis, Robôs Corrompidos
+que disparam feixes e Wisps Raros flutuantes. Shinigami é calculista e
+frio — ele testa a inteligência de Rael através de puzzles de ordem de
+ativação em vez de força bruta. Só confia em quem pensa antes de agir.
+
+[ ZONA PIZZARIA / CLÃ ROYALS — Marcus ]
+Dungeon Carmesim: câmaras subterrâneas de cristal carmesim que brilham
+em vermelho profundo. Marcus é carismático e popular — ele não pede prova
+de força, mas de habilidade social: Rael precisa primeiro vencer o
+BuildBattle local (minigame de construção contra jogadores da facção)
+para ser aceito. A dungeon em si é a mais rápida, mas cheia de armadilhas
+de ilusão (cristais que espelham o cenário criando caminhos falsos).
+
+[ ZONA HALLOWEEN / CLÃ KUROMI — Ozielux ]
+Dungeon Assombrada: mansão corrompida de três andares, visibilidade
+reduzida, Fantasmas que alternam entre visível e invisível, e o Modo
+Zumbi ativado permanentemente na superfície. Ozielux é enigmático e
+teatral — ela (Kuromi é feminino no lore do servidor) admira quem não
+tem medo. A dungeon exige que Rael complete sem jamais correr: pressão
+psicológica pura, onde a pressa mata mais que os inimigos.
+
+ALIADOS DESBLOQUEADOS:
+- Blocão: habilidade — Escudo de Terra (bloqueia 4 HP do próximo hit,
+  cooldown 20s). Aura: aumenta resistência a knockback.
+- Shinigami: habilidade — Análise de Alvo (destaca o ponto fraco do
+  inimigo mais próximo por 8s, cooldown 15s). Aura: dano de Besta +1.
+- Marcus: habilidade — Grito de Clã (todos os Wisps próximos se reagrupam
+  e atacam o mesmo alvo, cooldown 18s). Aura: +0.5 velocidade de movimento.
+- Ozielux: habilidade — Véu de Kuromi (Rael fica invisível por 4s,
+  inimigos param de persegui-lo, cooldown 25s). Aura: regenera 1 HP a
+  cada 20s fora de combate.
+
+------------------------------------------------------------------------
+6. GRANDE PROVAÇÃO
+------------------------------------------------------------------------
+Com os quatro Fragmentos reunidos, Rael os leva ao Altar dos Titãs para
+Power formar o Cristal de Unidade. Mas no momento em que Power toca os
+fragmentos, o Titã Corrompido invade o Altar.
+
+Power é incapacitado pela onda de corrupção — e Rael descobre a verdade:
+o Titã não é um boss aleatório. Ele é a manifestação do antigo clã de
+Power, corrompida pela dissolução forçada. A energia de um coletivo que
+foi desfeito sem despedida, sem encerramento — acumulada em código morto
+por anos — ganhou forma e voltou para destruir o que substituiu o clã.
+
+Power, meio inconsciente, murmura: "Não se pode dissolver o que as pessoas
+constroem juntas. Só transformar." Rael percebe que a única forma de
+encerrar o Titã não é destruí-lo, mas completar o que Power nunca fez:
+dar um fim digno ao antigo clã, usando a união dos quatro atuais como
+testemunha do encerramento.
+
+------------------------------------------------------------------------
+7. RECOMPENSA
+------------------------------------------------------------------------
+Com o Titã enfraquecido pela batalha, os quatro líderes chegam ao Altar
+— convocados por Power antes de cair. Cada um usa a energia do seu
+fragmento não para atacar, mas para "honrar" o antigo clã:
+Blocão com força, Shinigami com respeito, Marcus com alegria, Ozielux
+com memória. O Cristal de Unidade completa o ritual e o Titã se dissolve
+em luz — não em derrota, mas em encerramento.
+
+Rael recebe de Power o item mais raro do servidor: um Wisp Único.
+Todos os quatro líderes de clã, em cena inédita, aparecem no mesmo frame
+sem se atacar. Power, de pé novamente, olha para Rael: "Eu sabia que
+um novato resolveria isso. Novatos não carregam as brigas antigas."
+
+------------------------------------------------------------------------
+8. BATALHA FINAL
+------------------------------------------------------------------------
+O Titã de Obsidiana tem 3 fases na Arena do Altar:
+
+FASE 1 — Eco do Imperial (40 HP):
+Forma de terra e pedra pesada. Ataques de soterramento (blocos caem
+do teto). Raízes prendem Rael por 1.5s. Habilidade de Blocão (Escudo
+de Terra) é essencial — protege dos blocos que caem.
+Fraqueza: flecha de Besta acertando a coroa de cristal no topo da cabeça.
+
+FASE 2 — Eco da Moon (35 HP):
+Forma elétrica/holográfica. O Titã se multiplica em 3 cópias — apenas
+a que projetou sombra no chão é real. Feixes elétricos em padrão de grade.
+Habilidade de Shinigami (Análise de Alvo) revela a cópia real com aura
+dourada. Atacar cópia errada devolve 2 HP de dano ao jogador.
+
+FASE 3 — Eco de Kuromi e Royals fundidos (25 HP):
+Forma corrompida total. Arena com apenas 4 plataformas flutuantes. O Titã
+alterna entre invisibilidade (Ozielux) e convocação de NPCs falsos de
+aliados (Marcus). Rael precisa usar Véu de Kuromi para escapar dos NPCs
+falsos e Grito de Clã para reunir os Wisps reais e atacar o boss.
+Ao chegar em 0 HP, uma cutscene de ritual de encerramento se inicia —
+os quatro líderes usando seus fragmentos em conjunto com Rael.
+
+------------------------------------------------------------------------
+9. RETORNO DO HERÓI
+------------------------------------------------------------------------
+Henesys se restaura. Os quatro clãs permanecem separados — isso é
+saudável, diz Power — mas agora têm o Protocolo Rael: em caso de ameaça
+ao servidor, qualquer jogador neutro pode convocar os líderes ao Altar.
+
+Rael, que chegou como um novato sem clã, recebe o único título do jogo
+que não pertence a nenhum clã: "Embaixador de Henesys." O Wisp Único
+brilha ao seu lado enquanto o mapa completo do servidor aparece na tela,
+cada zona pulsando na sua cor.
+
+Tela final: chat do servidor mostrando mensagens dos quatro líderes
+e de Power — e uma mensagem do sistema:
+"> Conecte-se ao AusTV. A história continua."
+
+
+================================================================================
+PARTE 2 — GAME DESIGN DOCUMENT (GDD)
+================================================================================
+
+------------------------------------------------------------------------
+HIGH CONCEPT
+------------------------------------------------------------------------
+Título: AusTV: Henesys — O Despertar dos Wisps
+
+Resumo: Um jogo de plataforma 2D de ação e RPG onde o jogador, como Rael,
+entra no servidor AusTV como um novato sem clã e precisa reunir as quatro
+facções rivais de Henesys para encerrar a ameaça do Titã Corrompido —
+usando mecânicas, itens, eventos e personagens baseados no servidor real.
+
+------------------------------------------------------------------------
+VISÃO GERAL
+------------------------------------------------------------------------
+Título:    AusTV: Henesys — O Despertar dos Wisps
+Gênero:    Plataforma 2D de Ação e RPG por Zonas
+Resumo:    Explore as cinco zonas temáticas de Henesys com controles
+           inspirados no Minecraft, progrida pelo sistema de habilidades
+           do mcMMO, colete Wisps de múltiplas raridades, una os clãs
+           rivais e derrote o Titã Corrompido numa aventura que é uma
+           carta de amor ao servidor AusTV.
+
+------------------------------------------------------------------------
+CORE LOOP
+------------------------------------------------------------------------
+1. SPAWNA em Henesys (Hub central) com atributos base zerados.
+2. EXPLORA a zona atual — coleta recursos, derrota Wisps corrompidos,
+   sobe habilidades do mcMMO com cada ação realizada.
+3. ENTRA na dungeon temática da zona — usa Besta (crossbow) e espada,
+   resolve puzzles ambientais, derrota o Wisp Lendário (mini-boss).
+4. COLETA o Fragmento de Essência ao derrotar o mini-boss.
+5. RETORNA ao Hub — entrega fragmento a Power, sobe nível no Battle Pass,
+   desbloqueia cosméticos e equipamentos, compra itens na ShopGUI.
+6. AVANÇA para a próxima zona com mais dificuldade, novos inimigos e
+   mecânicas do mcMMO recém-desbloqueadas.
+7. ENFRENTA o Titã de Obsidiana com todos os quatro aliados ativados.
+
+------------------------------------------------------------------------
+CONTROLES
+------------------------------------------------------------------------
+Inspirados nos controles padrão do Minecraft (adaptados para 2D):
+
+  Tecla A                       =  Mover Rael para a esquerda
+  Tecla D                       =  Mover Rael para a direita
+  Tecla W  /  Barra de Espaço   =  Pulo
+  W  (pressionar 2x no ar)      =  Pulo Duplo (desbloqueável — mcMMO
+                                    Acrobacia nível 20)
+  Tecla S                       =  Agachar / Descer por plataformas
+  Tecla Ctrl                    =  Sprint (aumenta velocidade por 2s,
+                                    cooldown de 5s ao parar)
+  Botão Esquerdo do Mouse       =  Ataque corpo-a-corpo (espada / picareta)
+  Botão Direito do Mouse        =  Usar / Interagir
+                                    — Em inimigos: disparar Besta (crossbow)
+                                    — Em NPCs / itens de chão: interagir
+                                    — Em blocos destrutíveis: usar picareta
+  Tecla E                       =  Abrir inventário / Battle Pass
+  Teclas 1 / 2 / 3 / 4          =  Selecionar slot do hotbar
+                                    1 = Espada  |  2 = Besta  |
+                                    3 = Consumível  |  4 = Ferramenta
+  Tecla Q                       =  Ativar habilidade do Wisp equipado
+                                    (cooldown 30s)
+  Tecla F                       =  Trocar mão principal (alterna entre
+                                    Espada e Besta rapidamente)
+  Tecla Shift                   =  Agachar lento / Sneak (reduz hitbox,
+                                    move devagar, não acorda inimigos
+                                    dormentes em 4 blocos de distância)
+  Tecla R                       =  Recarregar Besta (animação de 1.5s —
+                                    igual ao Minecraft vanilla; interrompida
+                                    se Rael tomar dano durante a recarga)
+  Enter  /  Clique Direito NPC  =  Falar com NPC / abrir loja
+
+------------------------------------------------------------------------
+MECÂNICA DA BESTA (CROSSBOW)
+------------------------------------------------------------------------
+A Besta substitui qualquer item de arremesso e é a arma de longo alcance
+principal de Rael. Funciona em 3 etapas, igual ao Minecraft:
+
+  RECARREGAR: pressionar R inicia a animação de recarga (1.5s).
+    — Recarga interrompida por dano recebido.
+    — Visual: sprite de Rael muda para pose de recarga no topo da tela.
+
+  MIRAR: após recarregada, botão direito do mouse mantém a mira ativa.
+    — Uma linha de trajetória pontilhada aparece (alcance: 15 blocos).
+    — O ícone do alvo mais próximo fica em destaque.
+
+  DISPARAR: soltar o botão direito lança a flecha.
+    — Dano base: 3 HP (maior que a espada, mas com tempo de recarga).
+    — Flechas perfuram inimigos alinhados (pierce).
+    — Skins de Besta (do resource pack real do AusTV — Devaneio, Besta
+      das Sombras, Dardo do Amor, Pterodactyl...) mudam o visual do projétil
+      e o efeito de impacto, sem alterar atributos.
+
+  BESTA CARREGADA (status especial):
+    — Rael pode andar com a Besta carregada equipada (slot 2 selecionado).
+    — A flecha carregada brilha levemente no sprite.
+    — Perder a besta carregada (knockback que troca de slot) não perde a
+      flecha — ela fica carregada até o próximo disparo ou dano recebido.
+
+------------------------------------------------------------------------
+REGRAS E CONDIÇÕES
+------------------------------------------------------------------------
+VITÓRIA:
+  - Derrota o Titã de Obsidiana com os quatro aliados participando
+    da batalha final (ritual de encerramento ativado).
+  - Vitória local por zona: derrotar o Wisp Lendário mini-boss e coletar
+    o Fragmento de Essência. Zonas podem ser feitas em qualquer ordem,
+    mas Pizzaria exige nível 15 em qualquer habilidade mcMMO e Halloween
+    exige nível 25.
+
+DERROTA / GAME OVER:
+  - Barra de vida chega a zero: tela "DESCONECTADO" com opção de retornar
+    ao último checkpoint (entrada da dungeon ou Hub Central).
+  - Cronômetro de 72h in-game chega a zero sem completar as quatro zonas:
+    tela "HENESYS CAIU" com opção de reiniciar a partir da última zona
+    incompleta.
+  - O cronômetro pausa automaticamente dentro de dungeons, no Hub e durante
+    diálogos com NPCs.
+
+------------------------------------------------------------------------
+ELEMENTOS DE JOGO
+------------------------------------------------------------------------
+
+>> PROTAGONISTA: RAEL
+
+  Vida inicial:       6 corações (12 HP)
+  Vida máxima:        12 corações (24 HP — com upgrades de mcMMO e
+                      Battle Pass)
+  Velocidade base:    2.5 blocos/segundo (caminhando)
+  Velocidade sprint:  4.5 blocos/segundo (Ctrl ativo)
+  Ataque espada:      2 HP de dano (corpo-a-corpo, sem cooldown)
+  Ataque Besta:       3 HP de dano (longo alcance, recarga 1.5s)
+
+  SISTEMA mcMMO — 4 habilidades com progressão ativa:
+
+  [ COMBATE — sobe ao atacar inimigos ]
+  - Nível 10: Crítico passivo — 10% de chance de dano duplo por ataque
+  - Nível 25: Combo Triple — pressionar botão esquerdo 3x rapidamente
+    executa sequência: 2 + 2 + 5 de dano (último hit poderoso)
+  - Nível 40: Berserker — velocidade de ataque dobrada por 8s (cooldown 40s)
+
+  [ MINERAÇÃO — sobe ao quebrar blocos destrutíveis ]
+  - Nível 10: Blocos dropam 2x itens (cristais, minérios, Essências)
+  - Nível 20: Super Breaker — destrói parede de 3x3 blocos instantaneamente
+    (cooldown 30s; útil em dungeons com paredes destrutíveis)
+
+  [ ACROBACIA — sobe ao pular, esquivar e tomar dano de queda ]
+  - Nível 20: Pulo Duplo desbloqueado (W duas vezes no ar)
+  - Nível 35: Dash — pressionar Shift + A ou D executa esquiva lateral
+    de 3 blocos com 0.5s de invencibilidade (cooldown 8s)
+  - Nível 50: Rolamento ao pousar de alturas — zero dano de queda
+
+  [ HERBALISMO — sobe ao coletar plantas e itens gourmet ]
+  - Nível 10: Coletar tomate, milho, alho restaura 0.5 HP por coleta
+  - Nível 25: Green Terra — área de 5 blocos ao redor de Rael floresce
+    em cogumelos por 5s (criam plataformas temporárias; cooldown 35s)
+
+  WISP EQUIPADO (passivo + ativo):
+  Rael equipa um Wisp coletado. Cada raridade dá um passivo diferente,
+  e pressionar Q ativa o efeito especial:
+
+  - Comum (cinza):    Passivo — regenera 1 HP a cada 30s
+                      Ativo Q — revela Wisps próximos no mapa por 10s
+  - Incomum (verde):  Passivo — velocidade +0.5 blocos/s
+                      Ativo Q — sprint grátis por 5s sem cooldown
+  - Raro (azul):      Passivo — 15% de chance de bloquear 1 hit/seg
+                      Ativo Q — Escudo completo por 2s (bloqueia tudo)
+  - Épico (roxo):     Passivo — dano de ataque +1 permanente
+                      Ativo Q — próximo ataque causa 3x dano (não acumula)
+  - Lendário (dourado): passivo único por Wisp; ativo exclusivo por Wisp
+  - Único (arco-íris): combina passivos de todas as raridades inferiores;
+                      ativo Q cura 6 HP + dash automático para longe do
+                      inimigo mais próximo (cooldown 60s)
+
+  BATTLE PASS (30 níveis):
+  XP ganho completando missões, derrotando inimigos e dungeons.
+  Recompensas incluem: skins de Besta (Devaneio, Besta das Sombras, Lança
+  Confetes, Dardo do Amor, Yumi Sagrado, Pterodactyl, Besta Tempestuosa),
+  skins de Espada (Destruidor, Clava do Além, Tetsubo, Clava Glacial),
+  cosméticos (Chapéu de Bruxa, Gorro, Orelhas de Gato, Jetpack, Balão do
+  Brasil, Balão de Natal) e consumíveis (Kit Médico extra, Poção de Mana).
+
+
+>> INIMIGOS E OBSTÁCULOS
+
+  [ Wisp Comum (corrompido) ]
+  - Comportamento: Patrulha em círculo de 6 blocos. Ataca ao contato.
+  - Dano: 1 HP (contato)       Vida: 4 HP
+  - Drop: Essência Comum
+
+  [ Wisp Incomum (corrompido) ]
+  - Comportamento: Patrulha e teletransporta para perto do jogador (CD 8s).
+  - Dano: 1 HP + veneno 0.5 HP/s por 3s    Vida: 8 HP
+  - Drop: Essência Incomum
+
+  [ Wisp Raro (corrompido) ]
+  - Comportamento: Flutua alto, dispara 3 projéteis em rajada, pausa 2s.
+  - Dano: 1.5 HP por projétil   Vida: 14 HP
+  - Drop: Essência Rara
+
+  [ Wisp Épico (corrompido) ]
+  - Comportamento: Campo de força reflete projéteis — só vulnerável a
+    corpo-a-corpo. Investe em linha reta a cada 6s.
+  - Dano: 3 HP (investida)      Vida: 25 HP
+  - Drop: Essência Épica
+
+  [ Wisp Lendário (corrompido) — Mini-Boss de Zona ]
+  - Comportamento: 3 fases. Fase 1: voo livre. Fase 2 (50% HP): convoca
+    3 Wisps Comuns de suporte. Fase 3 (25% HP): campo de força + rajadas.
+  - Dano: 2 HP (projétil) / 4 HP (contato direto)    Vida: 50 HP
+  - Drop: Fragmento de Essência + Wisp Lendário (companheiro)
+
+  Mobs MythicMobs por zona:
+  Caipira:   Boi Mutado (lento, 20 HP, 3 dano), Vegetal Gigante (estático,
+             atira sementes, 8 HP)
+  Espacial:  Robô Corrompido (persegue e atira feixes, 15 HP), Holograma
+             (invulnerável até destruir o gerador próximo)
+  Pizzaria:  Chef Corrompido (joga pizzas explosivas AoE, 12 HP),
+             Entregador Veloz (alta velocidade, 6 HP, 2 dano)
+  Halloween: Zumbi (lento, grupos de até 8, 5 HP cada), Fantasma
+             (alterna 3s visível / 3s invisível, 10 HP)
+
+  [ Titã de Obsidiana — Boss Final ]
+  Ver seção de Level Design.
+
+
+>> ITENS E COLETÁVEIS
+
+  [ Essências de Wisp (4 raridades) ]
+  Comum / Incomum / Rara / Épica. Usos:
+  — Craftar itens na Forja do Hub
+  — Lances nos Leilões Sombrios
+  — Comprar na ShopGUI
+
+  [ Fragmentos de Essência (4 no total) ]
+  Um por zona. Progressão principal. Combinados formam o Cristal de Unidade.
+
+  [ Kit Médico ]
+  Recupera 4 HP instantaneamente. Stack de até 5. Drop de inimigos ou
+  comprado na ShopGUI. Usando: botão direito com slot 3 selecionado.
+
+  [ Poção de Mana ]
+  Recarrega TODOS os cooldowns imediatamente. Raro. Encontrado apenas em
+  Leilões Sombrios ou como recompensa de boss.
+
+  [ Bits (moeda do servidor) ]
+  Dropados por inimigos e coletados em blocos de cristal.
+  Usados na ShopGUI e nos Leilões Sombrios.
+
+  [ Skins de Besta ]
+  Visual da Besta muda (sprite + efeito de projétil). Baseadas nas skins
+  reais do AusTV: Devaneio, Besta das Sombras, Lança Confetes, Dardo do
+  Amor, Yumi Sagrado, Besta da Colheita, Besta dos Ovos, Pterodactyl,
+  Besta Tempestuosa. Desbloqueadas via Battle Pass ou Leilões Sombrios.
+
+  [ Skins de Espada / Clava ]
+  Visual da arma corpo-a-corpo. Baseadas nas skins reais: Destruidor,
+  Clava do Além, Bloco Carnavalesco, Clava Glacial, Tetsubo, Ankylosaurus,
+  Clava Fóssil. Desbloqueadas via Battle Pass.
+
+  [ Cosméticos Visuais ]
+  Equipáveis no sprite de Rael — apenas visual, sem impacto em atributos.
+  Chapéus (Bruxa, Palha, Gorro, Orelhas de Gato, Auréola), Costas (Jetpack,
+  Mochileiro, Âncora), Balões (Brasil, Natal, Páscoa) — todos referências
+  diretas ao namespace auscosmetic do resource pack AusTv.
+
+  [ Itens Gourmet ]
+  Tomate, Milho, Alho — coletados em áreas de vegetação da Zona Caipira.
+  Combinados na Forja:
+  — Tomate + Alho = Poção Anti-Zumbi (resistência a inimigos de Halloween
+    por 30s)
+  — Milho + Alho = Ração de Wisp (aumenta nível de Wisp equipado
+    temporariamente por 20s)
+
+------------------------------------------------------------------------
+LEVEL DESIGN (DESIGN DAS FASES)
+------------------------------------------------------------------------
+
+ESTRUTURA GERAL:
+6 áreas: Hub Central + 4 Zonas + Arena Final. Cada zona tem mapa lateral
+(side-scroll) com múltiplos andares e uma dungeon temática interna.
+O Hub é o único local sem inimigos — base de operações entre as zonas.
+
+  [ HUB CENTRAL — Altar dos Titãs ]
+  - Power: NPC fixo — dá missões, explica progressão e lore.
+  - SHop: loja com itens comprados por Bits (kit médico, flechas extras,
+    consumíveis).
+  - Leilão Sombrio: 5 itens em leilão simultâneo com timer. Rael dá lances
+    com Essências. Itens rodam a cada 3 minutos de jogo.
+  - Forja de Essências: combina ingredientes para craftar itens e cosméticos.
+  - Passe de Batalha: NPC com progresso visual de 30 níveis.
+  - Visual: o Hub se reconstrói progressivamente conforme fragmentos são
+    entregues. Começa em ruínas com iluminação fraca; ao final, está
+    completamente restaurado com fogo de artifício permanente.
+
+  ─────────────────────────────────────────────────────────────
+  ZONA 1 — TERRAS CAIPIRAS (Sul) | Clã Imperial / Blocão
+  ─────────────────────────────────────────────────────────────
+  Tema visual:     Rural, natureza, fazendas, barris, cogumelos, mesas
+                   de madeira. Referência: namespace ausmoveis/caipira.
+  Paleta:          Verde saturado, marrom, ocre, amarelo palha.
+  Música:          Viola caipira + acordeão em chiptune, BPM médio.
+  Mecânica nova:   Herbalismo — coletar vegetais da zona para criar
+                   plataformas com Green Terra (nível 25).
+
+  Mapa externo:
+  — 4 seções de campos abertos com Mobs de Fazenda e Wisps Comuns.
+  — Armadilhas de raiz (prendem Rael por 1.5s se pisado).
+  — Blocos de vegetação destrutíveis com Picareta (slot 4) revelam
+    itens gourmet e atalhos de mapa.
+  — Blocão fica em um rancho no topo da zona — inacessível antes de
+    completar a dungeon.
+
+  DUNGEON RUÍNA (Zona Caipira):
+  Tema: câmaras subterrâneas de pedra ancestral, fósseis incrustados nas
+  paredes, cristais de Essência Comum brilhando no teto. Referência visual:
+  pack "Ruína" do servidor (Pterodactyl, Clava Fóssil, Facas das Pedras).
+
+  Estrutura: 3 andares.
+  — Andar 1: corredor de pedra com Wisps Comuns patrulhando. Blocos de
+    fóssil destrutíveis com picareta revelam passagens secretas e
+    Essências. Armadilha de laje que desaba ao ser pisada (queda de 1 andar).
+  — Andar 2: câmara de puzzle — pilares de pedra numerados precisam ser
+    quebrados na ordem certa (dica visual: número de raízes ao redor de
+    cada pilar indica a sequência). Ordem errada invoca 2 Wisps Incomuns.
+  — Andar 3: arena do Mini-Boss — sala circular de 20x15 blocos com piso
+    de terra e raízes. Wisp Lendário Caipira usa armadura de raízes como
+    escudo intermitente. Fraqueza: ataque de Besta na coroa de cristal
+    exposta enquanto o escudo se regenera (janela de 2s a cada 30% HP).
+
+  Condição especial de Blocão: completar a dungeon sem usar Kit Médico.
+  Recompensa por cumprir: Essência Épica extra + título "Ironclad" (cosmético).
+
+  ─────────────────────────────────────────────────────────────
+  ZONA 2 — ZONA ESPACIAL (Norte) | Clã Moon / Shinigami
+  ─────────────────────────────────────────────────────────────
+  Tema visual:     Sci-fi, hologramas, ATMs, painéis LED, robôs.
+                   Referência: namespace ausmoveis/espacial.
+  Paleta:          Azul-neon, preto profundo, branco brilhante, ciano.
+  Música:          Sintetizador eletrônico com BPM alto, bass pulsante.
+  Mecânica nova:   Pulo Duplo (desbloqueado ao concluir esta zona).
+
+  Mapa externo:
+  — Plataformas suspensas entre edifícios futuristas de diferentes alturas.
+  — Robôs Corrompidos em rotas fixas; alguns têm campo de visão em cone
+    (se Rael entrar, o Robô persegue por 10s antes de voltar à rota).
+  — Hologramas estáticos no caminho — invisíveis até Rael chegar a 3
+    blocos; ao revelar, congelam Rael por 0.5s antes de atacar.
+  — Shinigami fica na plataforma mais alta, acessível após dungeon.
+
+  DUNGEON TORMENTA (Zona Espacial):
+  Tema: torre elétrica de 5 andares varrida por tempestade de dados
+  corrompidos. Relâmpagos caem em posições aleatórias (sinal visual de
+  3s antes de cair — linha de luz no chão). Referência visual: pack
+  "Tormenta" do servidor (Besta Tempestuosa, Anzol da Tormenta).
+
+  Estrutura: 5 andares com elevador elétrico entre eles (interrompe se
+  Rael levar dano durante a subida — cai para o andar anterior).
+  — Andares 1-2: Robôs em posições elevadas disparam feixes horizontais.
+    Rael precisa usar sneak (Shift) para passar por baixo dos feixes.
+  — Andar 3: puzzle de ativação — 4 geradores de energia precisam ser
+    desligados em sequência (dica: LEDs nos geradores acendem em ordem
+    rotativa — Rael precisa decorar e replicar a sequência). Errar reinicia
+    a sequência e causa 1 HP de descarga.
+  — Andar 4: corredor com relâmpagos constantes e Wisps Raros flutuantes.
+    Rael precisa usar o Pulo Duplo para alcançar plataformas seguras
+    entre os relâmpagos.
+  — Andar 5: arena do Mini-Boss — Wisp Lendário Espacial cria 2 cópias
+    holográficas de si mesmo (apenas a que projeta sombra no chão tem HP).
+    Atacar cópia errada causa 2 HP de retorno. Habilidade de Shinigami
+    (Análise de Alvo) destrói as cópias instantaneamente — mas Shinigami
+    só está disponível aqui se o puzzle do andar 3 foi resolvido sem erros.
+
+  ─────────────────────────────────────────────────────────────
+  ZONA 3 — BAIRRO DA PIZZARIA (Leste) | Clã Royals / Marcus
+  ─────────────────────────────────────────────────────────────
+  Tema visual:     Pizzaria urbana e agitada, ruas movimentadas, luzes
+                   de néon de comida. Referência: ausmoveis/pizzaria.
+  Paleta:          Vermelho pizza, branco, amarelo-queijo, bordô.
+  Música:          Jazz acelerado com trompetes e bateria em chiptune.
+  Mecânica nova:   BuildBattle (minigame obrigatório de construção).
+  Requisito:       Nível 15 em qualquer habilidade mcMMO para entrar.
+
+  Mapa externo:
+  — Ruas com Entregadores Velozes em alta velocidade (difíceis de evitar
+    no mesmo nível; Rael precisa pular sobre eles).
+  — Rastros de molho de pizza no chão: causam lentidão (-1 bloco/s) por 2s.
+  — Para falar com Marcus, Rael precisa primeiro vencer o BuildBattle:
+    recebe 20 blocos aleatórios e 60s para construir o objeto pedido.
+    Pontuação determina quantidade de Bits ganhos (não trava o progresso —
+    mesmo com nota baixa, Marcus aceita Rael depois).
+
+  DUNGEON CARMESIM (Zona Pizzaria):
+  Tema: câmaras subterrâneas de cristal vermelho carmesim que brilham com
+  luz própria. Ilusões ópticas — cristais espelham o cenário criando
+  corredores falsos. Referência visual: pack "Carmesim 2026" do servidor
+  (Caixa Carmesim, chave CMD 100045).
+
+  Estrutura: 4 andares com layout de labirinto de cristal.
+  — Andar 1: corredor linear com paredes de cristal que refletem o sprite
+    de Rael — inimigos "falsos" aparecem no reflexo (não causam dano, mas
+    confundem a leitura do mapa).
+  — Andar 2: câmara de bifurcações — 3 saídas, 2 falsas (levam de volta
+    ao início). Dica: cristais da saída verdadeira têm tom levemente
+    mais frio (azulado) que os falsos (avermelhados).
+  — Andar 3: corredor de Chefs Corrompidos e Entregadores Velozes juntos.
+    A velocidade dos Entregadores neste espaço fechado torna o combate
+    corpo-a-corpo inviável — Besta é essencial aqui.
+  — Andar 4: arena do Mini-Boss — Chef Corrompido Lendário em sala de
+    cozinha de 25x15 blocos. Fase 1: pizzas explosivas em AoE de 3x3.
+    Fase 2 (50% HP): velocidade dobrada + pizzas lançadas em 4 direções
+    simultaneamente. Fraqueza: atacar enquanto ele levanta a pizza
+    (ponto cego de 1s antes de lançar).
+
+  ─────────────────────────────────────────────────────────────
+  ZONA 4 — DISTRITO DE HALLOWEEN (Oeste) | Clã Kuromi / Ozielux
+  ─────────────────────────────────────────────────────────────
+  Tema visual:     Halloween permanente, cemitérios, abóboras, teias,
+                   mansão vitoriana. Referência: auscosmetic/travessura
+                   e caixa "Doces ou Travessuras" do servidor.
+  Paleta:          Roxo profundo, laranja, preto, lilás.
+  Música:          Órgão lento e perturbador com notas longas em chiptune.
+  Mecânica nova:   Modo Zumbi ativo — hordas de até 8 zumbis surgem
+                   na superfície a cada 25s.
+  Requisito:       Nível 25 em qualquer habilidade mcMMO para entrar.
+
+  Mapa externo:
+  — Labirinto de lápides e abóboras com visibilidade reduzida (campo de
+    visão de Rael é 8 blocos ao invés dos 15 normais).
+  — Fantasmas patrulham em ciclos de 3s visível / 3s invisível. Quando
+    invisíveis, deixam rastro de partículas roxas — única forma de rastreá-los.
+  — Condição de Ozielux: atravessar toda a zona SEM CORRER (Ctrl bloqueado
+    nesta zona). Rael precisa ir devagar e estratégico. Ao chegar em
+    Ozielux com essa condição cumprida, ela revela a entrada secreta da
+    dungeon (a entrada padrão leva a uma sala vazia).
+
+  DUNGEON ASSOMBRADA (Zona Halloween):
+  Tema: mansão maldita de 3 andares com cômodos que alternam entre
+  iluminados (afugenta fantasmas) e escuros (reduz campo de visão para
+  4 blocos). Referência visual: packs "Assombrada" e "Doces ou Travessuras"
+  do servidor (Besta das Sombras, Lâminas Sombrias, Linha Amaldiçoada,
+  Maça do Além).
+
+  Estrutura: 3 andares não-lineares (cada andar tem 2-3 cômodos opcionais).
+  — Andar 1 (Entrada): corredor principal com cômodos laterais. Cômodos
+    iluminados são seguros mas têm poucos itens. Cômodos escuros têm mais
+    Essências, mas Fantasmas emergem ao entrar.
+  — Andar 2 (Biblioteca): puzzle de sequência de livros — puxar os livros
+    na ordem errada faz o cômodo escurecer completamente por 10s,
+    invocando 3 Zumbis. Ordem certa abre passagem para sala de tesouro
+    com Wisp Raro (companheiro) e Kit Médico.
+  — Andar 3 (Torre): arena do Mini-Boss — Wisp Lendário de Halloween se
+    torna completamente invisível por 5s a cada 30% de HP perdido. Durante
+    a invisibilidade, apenas rastros de partículas laranja indicam posição.
+    Habilidade de Ozielux (Véu de Kuromi) faz Rael também ficar invisível
+    — o Wisp para de perseguir, dando janela para reposicionar e atacar
+    quando ele reaparece.
+
+  ─────────────────────────────────────────────────────────────
+  ARENA DO ALTAR — BATALHA FINAL (Centro)
+  ─────────────────────────────────────────────────────────────
+  Tema: Henesys em colapso — paletas de todas as zonas misturadas.
+  Efeito visual de glitch progressivo com distorção RGB.
+
+  Arena circular de 30x20 blocos. Quatro pilares nas extremidades
+  (um por aliado). O chão vai cedendo a cada fase do Titã.
+
+  TITÃ DE OBSIDIANA — 3 FASES (total: 100 HP):
+
+  Fase 1 — Eco do Imperial (40 HP):
+  Forma de pedra e terra. Blocos caem do teto em posições aleatórias
+  (sinal visual de 2s antes — sombra no chão). Raízes prendem Rael por
+  1.5s ao pisá-las. Convoca Wisps Comuns a cada 20s.
+  Fraqueza: flecha de Besta na coroa de cristal exposta no topo.
+  Blocão (pilar sul) disponível para ativar — ao ativá-lo, ele bloqueia
+  2 ataques de bloco do Titã automaticamente.
+
+  Fase 2 — Eco da Moon (35 HP):
+  Forma elétrica. 4 blocos do chão somem (ficam apenas plataformas).
+  Titã cria 2 cópias holográficas — apenas a com sombra no chão tem HP.
+  Atacar cópia errada: 2 HP de dano em Rael.
+  Shinigami (pilar norte) ao ser ativado: destrói todas as cópias e revela
+  o Titã real por 10s com aura dourada.
+
+  Fase 3 — Eco Fundido / Obsidiana Pura (25 HP):
+  Apenas 4 plataformas flutuantes restam. Glitch visual total.
+  O Titã usa ataques de TODAS as fases anteriores simultaneamente.
+  Alterna entre invisibilidade total (5s) e forma de obsidiana visível (8s).
+  Durante invisibilidade: rastros de partículas negras indicam posição.
+  Marcus (pilar leste) ao ser ativado: revela o Titã invisível por 12s.
+  Ozielux (pilar oeste) ao ser ativado: Rael ganha 8s de invisibilidade
+  recíproca — o Titã não o ataca durante esse período.
+
+  RITUAL DE ENCERRAMENTO (cutscene interativa):
+  Ao zerar o HP do Titã, os quatro líderes chegam aos pilares. Rael
+  precisa interagir com cada pilar na ordem dos fragmentos coletados
+  (Caipira → Espacial → Pizzaria → Halloween, ou a ordem que o jogador
+  seguiu). Cada interação é confirmada com botão direito do mouse + E.
+  Power surge no centro e completa o ritual. O Titã se dissolve em luz.
+
+  PROGRESSÃO DE DIFICULDADE GERAL:
+  Zona 1: 1-4 inimigos por área, dungeons com dicas visuais claras.
+  Zona 2: inimigos com projéteis, puzzles de memória, plataformas instáveis.
+  Zona 3: inimigos rápidos, BuildBattle, armadilhas de ambiente constantes.
+  Zona 4: hordas, visibilidade reduzida, invisibilidade inimiga, sem sprint.
+  Batalha Final: boss em 3 fases, arena encolhendo, mecânica de pilares,
+                 ataques combinados de todas as zonas.
+
+------------------------------------------------------------------------
+INTERFACE DE USUÁRIO (UI / HUD)
+------------------------------------------------------------------------
+
+>> HUD EM JOGO (sempre visível):
+
+  [ Canto superior esquerdo ]
+  - Corações de vida (estilo Minecraft — até 12 corações, 2 HP cada)
+  - Abaixo: ícone do Wisp equipado com borda colorida por raridade
+
+  [ Canto superior direito ]
+  - Cronômetro de 72h (formato "XXh XXm restantes")
+    — Fica vermelho ao chegar em 12h restantes
+  - Ícones dos 4 Fragmentos (vazio = não coletado, brilhante = coletado)
+  - Nível Battle Pass atual + barra de XP com progresso visual
+
+  [ Canto inferior esquerdo ]
+  - 4 slots de mcMMO com barra de nível de cada habilidade
+  - Ícone de habilidade ativa com anel de cooldown em cada slot relevante
+
+  [ Canto inferior centro ]
+  - Hotbar com 4 slots (1=Espada, 2=Besta, 3=Consumível, 4=Ferramenta)
+  - Slot selecionado tem borda branca destacada (igual Minecraft)
+  - Slot da Besta mostra se está carregada (flecha brilhante) ou vazia
+
+  [ Canto inferior direito ]
+  - Ícone do aliado ativo + barra de cooldown (15-25s conforme aliado)
+  - Ícone da habilidade Q do Wisp com anel de cooldown (30-60s)
+  - Contador de Bits
+
+>> TELAS DE MENU:
+
+  [ Tela Inicial ]
+  Fundo: mapa de Henesys em pixel art com as 5 zonas visíveis.
+  Logo com animação de Wisp Lendário voando ao redor do título.
+  Opções: "Novo Servidor" | "Continuar" | "Configurações" |
+          "Créditos" | "Conectar ao AusTV" (link real do servidor)
+
+  [ Menu de Pause ]
+  Fundo escurecido. Opções: "Continuar" | "Mapa de Henesys"
+  (mostra progresso por zona) | "Battle Pass" | "Inventário" |
+  "Configurações" | "Voltar ao Menu"
+
+  [ Tela de Game Over — Desconectado ]
+  Animação: pixels da tela se dissolvendo como kick de servidor.
+  Texto: "VOCÊ FOI DESCONECTADO" em vermelho pixelado.
+  Motivo exibido abaixo (ex: "Morte em combate" / "Henesys colapsou").
+  Opções: "Reconectar" (volta ao último checkpoint) | "Menu Principal"
+
+  [ Tela de Vitória ]
+  Animação: fogo de artifício sobre Henesys restaurada, bloco por bloco.
+  Texto: "HENESYS SALVA — Bem-vindo, Embaixador."
+  Estatísticas: tempo total | nível final Battle Pass | Wisps coletados
+               | habilidade mcMMO mais alta | número de mortes | Bits gastos
+  Botão "Conectar ao AusTV" com IP do servidor.
+  Opções: "Créditos" | "Menu Principal"
+
+  [ Battle Pass (tela dedicada — tecla E no Hub) ]
+  30 slots em linha horizontal. Cada slot mostra o ícone do item.
+  Desbloqueados brilham; futuros ficam levemente escurecidos.
+  XP atual / XP necessário por nível exibido em barra abaixo.
+  Ao clicar em item desbloqueado: animação de abertura + equipado auto.
+
+  [ Leilão Sombrio (acessível no Hub) ]
+  5 itens em leilão simultâneo, cada um com:
+  — Imagem do item em pixel art + nome com cor de raridade
+  — Lance atual + tipo de Essência necessária
+  — Timer individual (60s por padrão)
+  Ao vencer: animação "VOCÊ GANHOU!" + item vai para o inventário.
+  Ao perder (outro jogador NPC deu lance maior): "SUPERADO!" em vermelho.
+
+------------------------------------------------------------------------
+ESTÉTICA (ARTE E ÁUDIO)
+------------------------------------------------------------------------
+
+>> ESTILO VISUAL:
+  Pixel Art 16x16 blocos — referência ao resource pack AusTv
+  (pack_format 75, estética Minecraft Java contemporânea).
+
+  Paletas por área (baseadas nos namespaces reais do resource pack):
+  — Hub Central:     azul médio, cinza pedra, branco — neutro e acolhedor
+  — Zona Caipira:    verde saturado, marrom, ocre (ausmoveis/caipira)
+  — Zona Espacial:   azul-neon, preto, ciano (ausmoveis/espacial)
+  — Zona Pizzaria:   vermelho pizza, branco, amarelo (ausmoveis/pizzaria)
+  — Zona Halloween:  roxo, laranja, preto (auscosmetic/travessura)
+  — Arena Final:     todas as paletas misturadas + distorção RGB de glitch
+
+  Wisps animados com sprite sheet vertical (estilo PNG.mcmeta do pack)
+  — 6 frames de brilho pulsante por raridade, cada uma com cor única.
+
+  Cosméticos são visíveis no sprite de Rael:
+  — Chapéus aparecem sobre a cabeça do sprite
+  — Jetpack / Mochileiro aparecem nas costas
+  — Balões flutuam ligados ao sprite por uma linha pontilhada
+
+  Skins de Besta mudam o sprite da arma + cor + efeito do projétil:
+  — Besta das Sombras: projétil roxo com rastro de partículas
+  — Dardo do Amor: projétil rosa com coração ao impactar
+  — Pterodactyl: projétil com rastro de pena
+
+>> MÚSICA:
+  Estilo: Chiptune com influências regionais e temáticas por zona.
+
+  Hub Central:       Tema tranquilo e esperançoso; acelera e ganha
+                     camadas conforme fragmentos são entregues a Power.
+  Zona Caipira:      Viola caipira + percussão sertaneja em chiptune.
+  Zona Espacial:     Sintetizador sci-fi, BPM alto, bass eletrônico.
+  Zona Pizzaria:     Jazz acelerado com trompetes, BPM altíssimo.
+  Zona Halloween:    Órgão lento, notas dissonantes, silêncios propositais.
+  Dungeon Ruína:     Percussão de caverna, baixo profundo, eco.
+  Dungeon Tormenta:  Eletro tenso com estática e relâmpagos sonoros.
+  Dungeon Carmesim:  Jazz sombrio cromático, tensão crescente.
+  Dungeon Assombrada: Ambiente de horror minimalista — só notas e silêncio.
+  Batalha Final:     Épico progressivo em 3 camadas — Fase 1 adiciona
+                     percussão pesada, Fase 2 adiciona cordas, Fase 3
+                     mistura temas de TODAS as zonas em fusão caótica.
+  Ritual Final:      Resolução emocional ascendente de 16s.
+
+>> EFEITOS SONOROS:
+  — Pulo:              "blip" agudo 8-bit
+  — Pulo duplo:        "blip-blip" mais agudo, eco curto
+  — Sprint:            efeito de "whoosh" suave contínuo
+  — Ataque espada:     "slash" metálico pixelado
+  — Ataque clava:      "thud" grave e pesado
+  — Recarga da Besta:  "creak" mecânico de 1.5s (igual Minecraft)
+  — Disparo da Besta:  "twang" + "swoosh" do projétil
+  — Projétil acertando: estalo de pixel + efeito por skin equipada
+  — Dano recebido:     "grunt" + flash branco na tela
+  — Sneak ativado:     passo mais suave (volume de passo reduzido 60%)
+  — Coletando Bit:     "ding" agudo animado
+  — Coletando Essência: "shimmer" brilhante (tom mais agudo por raridade)
+  — Coletando Fragmento: fanfarra de 4 notas ascendentes + brilho na tela
+  — Wisp capturado:    "captura" suave com eco de raridade
+  — Wisp habilidade Q: efeito único por raridade (ex: Único = swell orquestral)
+  — Kit Médico usado:  "restore" + tinido metálico
+  — Aliado ativado:    voz curta 8-bit + 2s do tema da zona do aliado
+  — Leilão ganho:      "DING DING DING" + moedas
+  — Battle Pass up:    fanfarra curta + flash dourado
+  — Mini-boss derrotado: explosão 8-bit pesada + eco + fanfarra de 3 notas
+  — Titã rugindo:      bass digital profundo + tela treme por 0.3s
+  — Ritual de encerramento: 4 sons sequenciais (um por clã) + swell final
+  — Game Over:         4 notas descendentes + silêncio abrupto
+  — Vitória:           fogo de artifício pixelado + fanfarra de 12s
+
+
+================================================================================
+ENTREGA
+================================================================================
+Arquivo:    GDD_AusTV_Henesys_v3.txt
+Versão:     3.0
+Alterações: Controles padrão Minecraft (WASD + Mouse), Besta substituindo
+            arremesso, velocidade ajustada (2.5/4.5 blocos/s), gênero
+            renomeado para "Plataforma 2D de Ação e RPG por Zonas",
+            NPCs nomeados com staff real (Power, Blocão, Shinigami,
+            Marcus, Ozielux), dungeons temáticas baseadas nos packs
+            reais do servidor (Ruína, Tormenta, Carmesim, Assombrada),
+            clãs reais integrados (Imperial, Moon, Royals, Kuromi).
+Fonte:      projects/AUSTV/ + CrazyCrates + comandos_skins_novos_packs
+Disciplina: Desenvolvimento de Games
+================================================================================
